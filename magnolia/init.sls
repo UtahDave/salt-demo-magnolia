@@ -1,5 +1,6 @@
 magnolia-bundle:
-  file.managed:
+  file:
+    - managed
     - name: /root/magnolia-tomcat-bundle-4.5.8-tomcat-bundle.tar.gz
     - source: salt://magnolia/magnolia-tomcat-bundle-4.5.8-tomcat-bundle.tar.gz
 
